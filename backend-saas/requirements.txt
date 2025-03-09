@@ -24,3 +24,7 @@ python-jose
 cryptography
 bcrypt
 passlib
+
+pytest
+pytest-asyncio 
+httpx
