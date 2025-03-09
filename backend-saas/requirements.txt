@@ -1,0 +1,26 @@
+# FastAPI para criação da API
+fastapi[all]
+
+# Banco de dados (SQLAlchemy para ORM, psycopg2 para PostgreSQL)
+sqlalchemy
+psycopg2-binary
+
+# Gerenciamento de variáveis de ambiente
+python-dotenv
+
+# Segurança (Autenticação com JWT)
+passlib[bcrypt]
+pyjwt
+
+# Ferramentas úteis
+pydantic
+uvicorn[standard]
+
+# Cache opcional (se for usar Redis no futuro)
+redis
+
+
+python-jose
+cryptography
+bcrypt
+passlib
